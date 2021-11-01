@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  /* margin: 5px; */
+  min-height: 100vh;
+}
+span {
+  text-decoration: underline;
+}
+#navbar {
+  border: 2px solid peru;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./photo/Archiv.jpg") center/cover no-repeat fixed;
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  */
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 2px;
+  padding: 2px;
+  text-align: right;
+  text-emphasis-position: 23px;
+}
+/* CSS with Navbar all link PseudoClass Selectors with Link*/
+a:link {
+  color: white;
+}
+a:visited {
+  color: rgb(245, 245, 245);
+  /* background: linear-gradient(rgb(214, 206, 206), peru); */
+}
+a:hover {
+  color: peru;
+}
+a:active {
+  color: rgb(70, 4, 4);
+}
+#navbar h1 {
+  color: peru;
+  text-align: left;
+  text-decoration: none;
+}
+.header {
+  color: white;
+  margin-left: 35px;
+  padding-top: 145px;
+  text-align: center;
+  text-emphasis-position: 23px;
+  text-decoration: none;
+}
+.intro1 {
+  min-height: 100vh;
+  color: hsl(50, 93%, 12%);
+  padding: 10px;
+  font-size: 25px;
+  font-style: normal;
+  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  float: left;
+}
+.intro1 {
+  border: 2px solid peru;
+  /* background: url("./photo/Archiv.jpg"); */
+  /* if uh will hide gradient then img will show */
+  background: linear-gradient(
+    rgb(240, 240, 240),
+    rgba(236, 219, 219),
+    rgb(240, 240, 240)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  /* background-position: center; */
+}
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  /* float: left; */
+}
+.intro1 p {
+  border: 2px solid rgb(0, 0, 0);
+  display: block;
+  font-family: sans-serif;
+  /* width: 80%;
+  height: 80%;
+  /* text-align: center; */
+  /* float: inline-start; */
+  /* padding: 15px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  box-sizing: border-box; */
+}
+
+/* tech page */
+.tech1 {
+  border: 2px solid rgb(98, 42, 189);
+  background: url("./photo/techskills.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+
+  /* display: block; */
+}
+.tech1 {
+  color: azure;
+  padding: 18px;
+  /* display: block; */
+}
+.tech1 h3 {
+  color: red;
+  text-align: center;
+  /* display: block; */
+}
+
+/* _________________________________________________________________________________ */
+#proj {
+  border: 2px solid peru;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./photo/project.webp") center/cover no-repeat fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#proj > div {
+  /* display: flex; */
+  display: inline-flex;
+  flex-wrap: wrap;
+  color: white;
+  background: linear-gradient(rgba(17, 17, 17, 0.5), rgb(148, 143, 143)),
+    url("./photo/project.webp") center/cover no-repeat fixed;
+  font-size: 20px;
+  margin: 20px;
+  padding: 8px;
+  width: 20%;
+  height: 5%;
+}
+.protext {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  /* display: inline-block; */
+}
+.proj1 h3,
+h4 {
+  text-align: center;
+  color: brown;
+}
+
+#proj > div > img {
+  width: 100%;
+  height: 100%;
+  margin: 2px;
+  padding: 2px;
+  position: relative;
+}
+/* _________________________________________________________________________________ */
+
+.ach1 ul li {
+  /* border: 2px solid peru; */
+  display: block;
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
+    url("./photo/Archiv.jpg") center/cover no-repeat fixed;
+  list-style-type: circle;
+  /* will style booletean and blah blah  */
+}
+.ach1 {
+  color: rgb(240, 255, 255);
+  border: 2px solid peru;
+  background: linear-gradient(rgb(206, 158, 145, 0.7), rgba(0, 0, 0, 0.7));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.ach1 h3,
+h5 {
+  color: brown;
+  text-align: center;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+th {
+  color: black;
+}
+table td a:hover {
+  color: rgb(29, 6, 136);
+}
+
+.smh1 {
+  border: 2px solid peru;
+  background: linear-gradient(rgba(2, 1, 1, 0.5), rgba(70, 63, 63, 0.5)),
+    url("./photo/socialmh.webp") center/cover no-repeat fixed;
+  /* opacity: 1; */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; */
+}
+.smh1 {
+  color: azure;
+  text-align: center;
+}
+.smh1 h3 {
+  color: brown;
+}
+.contact1 {
+  border: 2px solid peru;
+  background: url("./photo/contact.webp") center/cover no-repeat fixed;
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; */
+}
+.contact1 {
+  text-align: center;
+  text-emphasis-position: 23px;
+  text-decoration: none;
+  color: azure;
+}
+.contact1 h3 {
+  color: brown;
+  /* text-align: center;
+  text-emphasis-position: 23px;
+  text-decoration: none; */
+}
+
+.footer1 {
+  border: 2px solid peru;
+  background: linear-gradient(
+    rgb(245, 245, 245),
+    rgb(196, 162, 162),
+    rgb(255, 255, 255)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.footer1 {
+  text-align: center;
+  text-decoration: none;
+}
+.footer1 a {
+  color: brown;
+}
+.footer1 h3 {
+  color: black;
+  text-align: center;
+  /* border: 2px solid black; */
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(241, 239, 240));
+}
